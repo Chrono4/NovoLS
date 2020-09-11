@@ -56,23 +56,17 @@
 
 NovoLS is a lexical text simplification system which I constructed as part of my dissertation project. It is largely insipired by LightLS — an older lexcial text simplifier proposed by Prof. Dr. Goran Glavaš and Dr. Sanja Štajner in 2015. Both NovoLS and LightLS make use of GloVe word embeddings to find ‬simplification candidates for complex words, which are then ranked on a number of different features.
 
-### Built With
-
-* [Gensim](https://radimrehurek.com/gensim/)
-* [NLTK](https://www.nltk.org/)
-* [Wordfreq](https://pypi.org/project/wordfreq/)
-
 ### Prerequisites
 
-* Gensim
+* [Gensim](https://radimrehurek.com/gensim/)
 ```sh
 pip install gensim
 ```
-* NLTK
+* [NLTK](https://www.nltk.org/)
 ```sh
 pip install nltk
 ```
-* wordfreq
+* [Wordfreq](https://pypi.org/project/wordfreq/)
 ```sh
 pip install wordfreq
 ```
