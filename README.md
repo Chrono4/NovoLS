@@ -1,27 +1,3 @@
-<!--
-*** Thanks for checking out this README Template. If you have a suggestion that would
-*** make this better, please fork the repo and create a pull request or simply open
-*** an issue with the tag "enhancement".
-*** Thanks again! Now go create something AMAZING! :D
-***
-***
-***
-*** To avoid retyping too much info. Do a search and replace for the following:
-*** github_username, repo_name, twitter_handle, email
--->
-
-
-
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -64,28 +40,24 @@ NovoLS is a lexical text simplification system which I constructed as part of my
 
 * [Wordfreq](https://pypi.org/project/wordfreq/)
 
-All prerequisites can be installed via pip:
+### Installation
 
+1. Install prerequisites if not already installed
 ```sh
 pip install gensim nltk wordfreq
 ```
 
-### Installation
-
-1. Clone the repo
+2. Clone the repo
 ```sh
 git clone https://https://github.com/Chrono4/NovoLS.git
 ```
 
-2. Install prerequisites
-
-1. Run simplifier.py
+3. Run simplifier.py
 
 <!-- ROADMAP -->
 ## Roadmap
 
 See the [open issues](https://https://github.com/Chrono4/NovoLS/issues) for a list of proposed features (and known issues).
-
 
 <!-- CONTACT -->
 ## Contact
@@ -100,12 +72,12 @@ Shout out to Prof. Dr. Goran Glavaš for answering questions I had about the pro
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo.svg?style=flat-square
-[contributors-url]: https://https://github.com/Chrono4/NovoLS/graphs/contributors
+[contributors-url]: https://github.com/Chrono4/NovoLS/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/github_username/repo.svg?style=flat-square
-[forks-url]: https://https://github.com/Chrono4/NovoLS/network/members
+[forks-url]: https://github.com/Chrono4/NovoLS/network/members
 [stars-shield]: https://img.shields.io/github/stars/github_username/repo.svg?style=flat-square
-[stars-url]: https://https://github.com/Chrono4/NovoLS/stargazers
+[stars-url]: https://github.com/Chrono4/NovoLS/stargazers
 [issues-shield]: https://img.shields.io/github/issues/github_username/repo.svg?style=flat-square
-[issues-url]: https://https://github.com/Chrono4/NovoLS/issues
+[issues-url]: https://github.com/Chrono4/NovoLS/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/kane-miles-dev/
