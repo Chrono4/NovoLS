@@ -59,16 +59,12 @@ NovoLS is a lexical text simplification system which I constructed as part of my
 ### Prerequisites
 
 * [Gensim](https://radimrehurek.com/gensim/)
-```sh
-pip install gensim
-```
+
 * [NLTK](https://www.nltk.org/)
-```sh
-pip install nltk
-```
+
 * [Wordfreq](https://pypi.org/project/wordfreq/)
 ```sh
-pip install wordfreq
+pip install gensim nltk wordfreq
 ```
 
 ### Installation
@@ -91,9 +87,9 @@ See the [open issues](https://https://github.com/Chrono4/NovoLS/issues) for a li
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [LinkedIn](https://www.linkedin.com/in/kane-miles-dev/)
+[LinkedIn](https://www.linkedin.com/in/kane-miles-dev/)
 
-Project Link: [https://https://github.com/Chrono4/NovoLS](https://https://github.com/Chrono4/NovoLS)
+[https://https://github.com/Chrono4/NovoLS](https://https://github.com/Chrono4/NovoLS)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
