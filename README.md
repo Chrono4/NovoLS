@@ -13,7 +13,7 @@
     <a href="https://github.com/Chrono4/NovoLS"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Chrono4/NovoLS">View Demo</a>
+    <a href="https://www.academia.edu/43532843/NovoLS_A_Lexical_Text_Simplification_Web_Service?source=swp_share">Read Thesis</a>
     ·
     <a href="https://github.com/Chrono4/NovoLS/issues">Report Bug</a>
     ·
@@ -24,7 +24,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-NovoLS is a lexical text simplification system which I constructed as part of my dissertation project. It is largely insipired by LightLS — an older lexcial text simplifier proposed by Prof. Dr. Goran Glavaš and Dr. Sanja Štajner in 2015. Both NovoLS and LightLS make use of GloVe word embeddings to find ‬simplification candidates for complex words, which are then ranked on a number of different features.
+NovoLS is a lexical text simplification system which I constructed as part of my dissertation project. It is largely insipired by LightLS — an older lexcial text simplifier proposed by Prof. Dr. Goran Glavaš and Dr. Sanja Štajner in 2015. Both NovoLS and LightLS make use of GloVe word embeddings to find ‬simplification candidates for complex words, which are then ranked on a number of different features. My thesis can be found [here](https://www.academia.edu/43532843/NovoLS_A_Lexical_Text_Simplification_Web_Service?source=swp_share)
 
 ### Prerequisites
 
