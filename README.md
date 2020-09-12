@@ -51,7 +51,7 @@ git clone https://https://github.com/Chrono4/NovoLS.git
 
 3. Run simplifier.py
 ```sh
-python simplifier.py [sentence to simplify]
+python simplifier.py "sentence to simplify"
 ```
 
 <!-- ROADMAP -->
