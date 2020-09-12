@@ -49,7 +49,8 @@ pip install gensim nltk wordfreq
 git clone https://https://github.com/Chrono4/NovoLS.git
 ```
 
-3. Generated KeyedVectors from GloVe embeddings
+3. Generate KeyedVectors from GloVe embeddings
+
     1. Navigate to NovoLS/resources/embeddings directory
     
     2. Run gen_keyed_vectors.py to generate Gensim KeyedVectors model
