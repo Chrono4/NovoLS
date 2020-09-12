@@ -44,7 +44,7 @@ NovoLS is a lexical text simplification system which I constructed as part of my
 git clone https://https://github.com/Chrono4/NovoLS.git
 ```
 
-2. Run gen_keyed_vectors.py within resources/embeddings directory to generate vector model
+2. Run generation script within resources/embeddings to generate vector model
   ```sh
   python gen_keyed_vectors.py <glove vector path>
   ```
