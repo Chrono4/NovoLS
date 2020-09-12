@@ -43,10 +43,10 @@ if __name__ == '__main__':
     if len(sys.argv) > 1:
         raw_str = sys.argv[1]
     else:
-        raw_str = "This is a particularly convoluted sentence requiring simplification."
+        raw_str = "This is a particularly convoluted test sentence requiring simplification."
         
     # Copy of tokens to prevent changes to original.
-    tokens = tokenize(sys.argv[1])
+    tokens = tokenize(raw_str)
     tokens_copy = tokens.copy()
     # For each copied token
     for i in range(len(tokens_copy)):
@@ -58,7 +58,7 @@ if __name__ == '__main__':
         # Only simplify tokens in model and not in stopwords.
         if word_valid and word_complex:
             result = simplify_token(tokens_copy, i)
-            print(result)
+            print("Results for '" + tokens_copy[i] + "' - " + str(result) + "\n")
             
         
         
