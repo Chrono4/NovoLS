@@ -39,26 +39,17 @@ NovoLS is a lexical text simplification system which I constructed as part of my
 
 ### Installation
 
-1. Install prerequisites if not already installed
-```sh
-pip install gensim nltk wordfreq
-```
-
-2. Clone the repo
+1. Clone the repo
 ```sh
 git clone https://https://github.com/Chrono4/NovoLS.git
 ```
 
-3. Generate KeyedVectors from GloVe embeddings
+2. Run gen_keyed_vectors.py within resources/embeddings directory to generate vector model
+  ```sh
+  python gen_keyed_vectors.py <glove vector path>
+  ```
 
-    1. Navigate to NovoLS/resources/embeddings directory
-    
-    2. Run gen_keyed_vectors.py to generate Gensim KeyedVectors model
-      ```sh
-      python gen_keyed_vectors.py <glove vector path>
-      ```
-  
-4. Run simplifier.py
+3. Run simplifier.py
 ```sh
 python simplifier.py
 ```
