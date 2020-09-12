@@ -68,16 +68,3 @@ If you have any questions or concerns, message me on [LinkedIn](https://www.link
 ## Acknowledgements
 
 Shout out to Prof. Dr. Goran Glavaš for answering questions I had about the project. My dissertation would not have been what it was without his help. For those interested, a minimal version of Prof. Glavaš and Štajner's LightLS system can be found [here](https://github.com/codogogo/lightls)
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo.svg?style=flat-square
-[contributors-url]: https://github.com/Chrono4/NovoLS/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo.svg?style=flat-square
-[forks-url]: https://github.com/Chrono4/NovoLS/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo.svg?style=flat-square
-[stars-url]: https://github.com/Chrono4/NovoLS/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo.svg?style=flat-square
-[issues-url]: https://github.com/Chrono4/NovoLS/issues
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/kane-miles-dev/
