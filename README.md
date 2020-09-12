@@ -52,9 +52,18 @@ git clone https://https://github.com/Chrono4/NovoLS.git
 <!-- USAGE -->
 ## Usage
 
-1. Run simplifier.py with complex sentence as argument
+* Run simplifier.py with complex sentence as argument
 ```sh
 python simplifier.py "convoluted sentence to simplify"
+```
+
+* Will return list of complex words detected, alongside their simplification candidates and rankings
+```sh
+Results for 'convoluted' - [('complicated', 9), ('confusing', 6), ('tedious', 3), ('tangled', 0)]
+
+Results for 'sentence' - [('prison', 0)]
+
+Results for 'simplify' - [('simplified', 1), ('simpler', 2)]
 ```
 
 <!-- ROADMAP -->
