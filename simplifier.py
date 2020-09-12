@@ -5,6 +5,7 @@ from gensim.models import KeyedVectors
 
 from features import context_sim, language_model
 from embeddings import *
+import sys
 
 # Parameters for simplifier.
 LANG = "en"
@@ -38,10 +39,14 @@ def simplify_token(tokens, i):
     return overall_ranked
     
 if __name__ == '__main__':
-    # Test sentence.
-    test_str = "This is a particularly convoluted sentence requiring simplification."
+    # If supplied, set text to user input.
+    if len(sys.argv) > 1:
+        raw_str = sys.argv[1]
+    else:
+        raw_str = "This is a particularly convoluted sentence requiring simplification."
+        
     # Copy of tokens to prevent changes to original.
-    tokens = tokenize(test_str)
+    tokens = tokenize(sys.argv[1])
     tokens_copy = tokens.copy()
     # For each copied token
     for i in range(len(tokens_copy)):
