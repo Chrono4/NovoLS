@@ -34,6 +34,9 @@ NovoLS is a lexical text simplification system which I constructed as part of my
 
 * [Wordfreq](https://pypi.org/project/wordfreq/)
 
+* [Wikipedia 2014 + Gigaword 5 GloVe Embeddings](https://nlp.stanford.edu/projects/glove/)
+<br><b>Note - </b> After downloading glove.6B.zip, we used the 300d embeddings, however, any of the packaged embeddings can be used.
+
 ### Installation
 
 1. Install prerequisites if not already installed
@@ -46,7 +49,18 @@ pip install gensim nltk wordfreq
 git clone https://https://github.com/Chrono4/NovoLS.git
 ```
 
-3. Run simplifier.py
+3. Generated KeyedVectors from GloVe embeddings
+    1. Navigate to NovoLS/resources/embeddings directory
+    
+    2. Run gen_keyed_vectors.py to generate Gensim KeyedVectors model
+      ```sh
+      python gen_keyed_vectors.py <glove vector path>
+      ```
+  
+4. Run simplifier.py
+```sh
+python simplifier.py
+```
 
 <!-- ROADMAP -->
 ## Roadmap
