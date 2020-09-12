@@ -49,9 +49,12 @@ git clone https://https://github.com/Chrono4/NovoLS.git
   python gen_keyed_vectors.py <glove vector path>
   ```
 
-3. Run simplifier.py
+<!-- USAGE -->
+## Usage
+
+1. Run simplifier.py with complex sentence as argument
 ```sh
-python simplifier.py "sentence to simplify"
+python simplifier.py "convoluted sentence to simplify"
 ```
 
 <!-- ROADMAP -->
