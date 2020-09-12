@@ -59,11 +59,3 @@ if __name__ == '__main__':
         if word_valid and word_complex:
             result = simplify_token(tokens_copy, i)
             print("Results for '" + tokens_copy[i] + "' - " + str(result) + "\n")
-            
-        
-        
-
-        
-
-
-
